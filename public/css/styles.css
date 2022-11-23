@@ -1,5 +1,5 @@
 .body-color {
-    background-image: -webkit-linear-gradient(65deg, #eaffd0 50%, #f9ed69 50%);
+    background-image: -webkit-linear-gradient(65deg, #924dfa 50%, #d4b9fd 50%);
     min-height: 100vh;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .paragraph-background {
-    background-color: #ffffd2;
+    background-color: #d4b9fd;
 }
 
 .align-right {
@@ -26,8 +26,8 @@
     font-family: 'Comic Neue', cursive;
     width: 500px;
     padding: 1% 2%;
-    background-color: #f38181;
-    color: #95e1d3;
+    background-color: #924dfa;
+    color: white;
     border-radius: 10px;
 }
 
@@ -37,13 +37,13 @@
 }
 
 .todo-background {
-    background-color: #ffffd2;
+    background-color: #d4b9fd;
 }
 
 .checkbox-strikethrough {
     margin: 0 5% 0 0;
     display: inline-block;
-    background-color: #ffffd2;
+    background-color: #d4b9fd;
 }
 
 .checkbox-strikethrough:checked+p.p-inline {
@@ -53,7 +53,7 @@
 .p-inline {
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
-    color: #3ec1d3;
+    color: #924dfa;
     font-size: 1.5rem;
     line-height: 2;
     margin: auto 0;
@@ -75,11 +75,11 @@
 }
 
 .form-background {
-    background-color: #ffffd2;
+    background-color: white;
 }
 
 .input-todo {
-    background-color: #ffffd2;
+    background-color: white;
     color: #aa96da;
     font-size: 1.5rem;
     line-height: 2;
@@ -92,10 +92,10 @@
 .add-button {
     padding: 10px 15px;
     text-align: center;
-    background-color: #f38181;
-    color: #95e1d3;
+    background-color: #924dfa;
+    color: white;
     border-radius: 100%;
-    border-color: #ffffd2;
+    border-color: #d4b9fd;
 }
 
 footer {

@@ -11,21 +11,16 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 //----------- Mongoose Connection -----------
-mongoose.connect(
-  "mongodb+srv://Admin-Parv:test-123@cluster0-fxeex.mongodb.net/todolistDB",
-  {
-    useUnifiedTopology: true,
-    useNewUrlParser: true,
-  }
-);
+mongoose.connect("mongodb://localhost:27017/toDoList", {
+  useUnifiedTopology: true,
+  useNewUrlParser: true,
+});
 
 //----------- Mongoose DB Schema -----------
 const itemsSchema = new mongoose.Schema({
   name: String,
 });
 const Item = mongoose.model("Item", itemsSchema);
-
-//----------- Mongoose Items Creation-----------
 
 //----------- Custome List schema -----------
 const listSchema = new mongoose.Schema({ name: String, items: [itemsSchema] });
